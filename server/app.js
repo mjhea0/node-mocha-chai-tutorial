@@ -38,14 +38,4 @@ server.listen(1337, function() {
   console.log("Node server running on http://localhost:1337");
 });
 
-
-
-
-
-
-
-
-
-
-
-
+module.exports = app;
