@@ -17,7 +17,6 @@ var app = express();
 var config = require('./_config');
 
 // *** mongoose *** ///
-console.log(app.settings.env);
 mongoose.connect(config.mongoURI[app.settings.env], function(err, res) {
   if(err) {
     console.log('Error connecting to the database. ' + err);
